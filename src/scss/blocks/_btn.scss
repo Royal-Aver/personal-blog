@@ -1,0 +1,34 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-family: inherit;
+    padding: 13px 25px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    border: none;
+    color: $white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color .2s linear;
+    
+    &--work {
+        background-color: #ED3024;
+        box-shadow: 0 7px 17px -10px rgba(242, 63, 63, .3);
+
+        &:hover {
+            background-color: darken(#ED3024, 15%);
+        }
+    }
+
+    &--feedback {
+        background-color: #3137C9;
+        box-shadow: 0 7px 17px -10px rgba(32, 84, 219, .35);
+
+        &:hover {
+            background-color: darken(#3137C9, 15%);
+        }
+    }
+}
+
+
