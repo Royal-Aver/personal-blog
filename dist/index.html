@@ -4,12 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220216092711">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220218080935">
     <title>"Главная""</title>
 </head>
 <body>
     <header class="header">
-    header
+    <div class="header__nav">
+        <nav class="header__menu">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        Главная
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link has-subnav" href="#">
+                        Статьи
+                    </a>
+
+                    <ul class="header__subnav subnav">
+                        <li class="subnav__item">
+                            <a class="subnav__link"  href="#">
+                                Создание сайтов
+                            </a>
+                        </li>
+                        <li class="subnav__item">
+                            <a class="subnav__link"  href="#">
+                                Интернет-маркетинг
+                            </a>
+                        </li>
+                        <li class="subnav__item">
+                            <a class="subnav__link"  href="#">
+                                Продвижение видео
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        Обо мне
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a class="header__link" href="#">
+                        Реклама
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="header__user-profile">
+        <nav class="header__user-nav">
+            <ul class="header__user-list">
+                <li class="header__user-item header__item">
+                    <a class="header__user-link header__link"  href="#">
+                        Профиль
+                    </a>
+                </li>
+                <li class="header__user-item header__item">
+                    <a class="header__user-link header__link"  href="#">
+                        Выйти
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <form class="header__form" action="/" method="post">
+            <input class="header__search-input"  type="text" placeholder="Поиск по блогу">
+        </form>
+    </div>
 </header>
 
     <sidebar class="sidebar">
@@ -70,6 +133,6 @@
     <footer class="footer">
 
 </footer>  
-    <script src="js/app.min.js?_v=20220216092711"></script>  
+    <script src="js/app.min.js?_v=20220218080935"></script>  
 </body>
 </html>
