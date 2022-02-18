@@ -1,0 +1,49 @@
+.add-post {
+    margin-bottom: 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 45);
+    border-radius: 5px;
+    background-color: #121212;
+    padding: 15px 20px 15px 30px;
+}
+
+.add-post__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-post__text {
+    display: block;
+    width: 70%;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 15px;
+    resize: none;
+
+     &::placeholder {
+        color: $grey-text;
+            }
+}
+
+.add-post__file,
+.add-post__send {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.add-post__file {
+    background: #EBEBEB url("../../img/stories/photo-btn.svg") center no-repeat;
+}
+
+.add-post__send {
+    background-color: #3137C9;
+}
+
+input {
+    display: none;
+}
